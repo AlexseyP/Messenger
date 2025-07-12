@@ -1,0 +1,17 @@
+{
+  "name": "simple-chat",
+  "version": "1.0.0",
+  "description": "Простой веб-чат с WebSocket",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2",
+    "uuid": "^9.0.1"
+  },
+  "keywords": ["chat", "websocket", "messenger"],
+  "author": "",
+  "license": "MIT"
+} 
